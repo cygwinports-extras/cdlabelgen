@@ -1,0 +1,11 @@
+DESCRIPTION="CD/DVD insert/envelope generator"
+HOMEPAGE="http://www.aczoom.com/tools/cdinsert/"
+SRC_URI="http://www.aczoom.com/pub/tools/${P}.tgz"
+
+src_compile() { :; }
+
+src_install() {
+	cd ${S}
+	dodir /usr/share/man/man1
+	cyginstall BASE_DIR=${D}/usr
+}

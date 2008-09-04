@@ -1,0 +1,67 @@
+cdlabelgen
+-------------------------------------------
+CD/DVD jewel case inserts and envelopes creator. Generates frontcards
+and traycards for CD cases, single-cd envelopes, DVD case inserts.
+
+Runtime requirements:
+  perl
+
+Build requirements:
+  cygport-0.4.0-1
+  make-3.81-1
+
+Canonical homepage:
+  http://www.aczone.com/tools/cdinsert
+
+Canonical download:
+  http://www.aczone.com/pub/tools/
+
+-------------------------------------------
+
+Build instructions:
+  unpack cdlabelgen-4.0.0-1-src.tar.bz2
+    if you use setup to install this src package, it will be
+	 unpacked under /usr/src automatically
+  cd /usr/src
+  cygport ./cdlabelgen-4.0.0-1.cygport all
+
+This will create:
+  /usr/src/cdlabelgen-4.0.0-1-src.tar.bz2
+  /usr/src/cdlabelgen-4.0.0-1.tar.bz2
+
+-------------------------------------------
+
+Files included in the binary package:
+
+  /usr/bin/cdlabelgen
+  /usr/share/cdlabelgen/cd.eps
+  /usr/share/cdlabelgen/cdda.eps
+  /usr/share/cdlabelgen/debian-color.eps
+  /usr/share/cdlabelgen/divx.eps
+  /usr/share/cdlabelgen/dvdlogo.eps
+  /usr/share/cdlabelgen/mp3.eps
+  /usr/share/cdlabelgen/music1.eps
+  /usr/share/cdlabelgen/music2.eps
+  /usr/share/cdlabelgen/ogg.eps
+  /usr/share/cdlabelgen/penguin.eps
+  /usr/share/cdlabelgen/recycle.eps
+  /usr/share/cdlabelgen/template.ps
+  /usr/share/cdlabelgen/winamp.eps
+  /usr/share/doc/cdlabelgen-4.0.0/ChangeLog
+  /usr/share/doc/cdlabelgen-4.0.0/INSTALL
+  /usr/share/doc/cdlabelgen-4.0.0/README
+  /usr/share/man/man1/cdlabelgen.1.gz
+
+------------------
+
+Port Notes:
+
+----- version 4.0.0-1 -----
+Version bump.
+
+----- version 3.0.0-1 -----
+Initial release for Cygwin.
+
+
+Cygwin port maintained by:
+http://cygwinports.dotsrc.org/

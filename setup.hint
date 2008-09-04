@@ -1,0 +1,5 @@
+category: Publishing
+requires: perl
+sdesc: "CD/DVD jewel case inserts and envelopes creator"
+ldesc: "CD/DVD jewel case inserts and envelopes creator. Generates frontcards
+and traycards for CD cases, single-cd envelopes, DVD case inserts."
