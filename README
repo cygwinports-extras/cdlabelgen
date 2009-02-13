@@ -7,7 +7,7 @@ Runtime requirements:
   perl
 
 Build requirements:
-  cygport-0.4.0-1
+  cygport-0.4.3-1
   make-3.81-1
 
 Canonical homepage:
@@ -19,15 +19,15 @@ Canonical download:
 -------------------------------------------
 
 Build instructions:
-  unpack cdlabelgen-4.0.0-1-src.tar.bz2
+  unpack cdlabelgen-4.1.0-1-src.tar.bz2
     if you use setup to install this src package, it will be
 	 unpacked under /usr/src automatically
   cd /usr/src
-  cygport ./cdlabelgen-4.0.0-1.cygport all
+  cygport ./cdlabelgen-4.1.0-1.cygport all
 
 This will create:
-  /usr/src/cdlabelgen-4.0.0-1-src.tar.bz2
-  /usr/src/cdlabelgen-4.0.0-1.tar.bz2
+  /usr/src/cdlabelgen-4.1.0-1-src.tar.bz2
+  /usr/src/cdlabelgen-4.1.0-1.tar.bz2
 
 -------------------------------------------
 
@@ -47,14 +47,17 @@ Files included in the binary package:
   /usr/share/cdlabelgen/recycle.eps
   /usr/share/cdlabelgen/template.ps
   /usr/share/cdlabelgen/winamp.eps
-  /usr/share/doc/cdlabelgen-4.0.0/ChangeLog
-  /usr/share/doc/cdlabelgen-4.0.0/INSTALL
-  /usr/share/doc/cdlabelgen-4.0.0/README
+  /usr/share/doc/cdlabelgen-4.1.0/ChangeLog
+  /usr/share/doc/cdlabelgen-4.1.0/INSTALL
+  /usr/share/doc/cdlabelgen-4.1.0/README
   /usr/share/man/man1/cdlabelgen.1.gz
 
 ------------------
 
 Port Notes:
+
+----- version 4.1.0-1 -----
+Version bump.
 
 ----- version 4.0.0-1 -----
 Version bump.
